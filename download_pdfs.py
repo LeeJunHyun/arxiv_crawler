@@ -39,7 +39,8 @@ for pid,j in db.items():
     if not os.path.exists(os.path.join(Config.pdf_dir,year)): os.makedirs(os.path.join(Config.pdf_dir,year))
     
   if Config.save_pdf_by_title:
-    fname = os.path.join(Config.pdf_dir,year,month, " ".join(j['title'].split("/"))) + '.pdf'
+    fname = "".join(" ".join(j['title'].split("/")).split("\n"))
+    fname = os.path.join(Config.pdf_dir,year,month, fname) + '.pdf'
   else:
     fname = os.path.join(Config.pdf_dir,year,month, basename) + '.pdf'
 
