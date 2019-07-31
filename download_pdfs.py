@@ -38,9 +38,9 @@ for pid,j in db.items():
     month = ""
 
   if Config.save_pdf_by_title:
-    fname = os.path.join(Config.pdf_dir,year,month, " ".join(j['title'].split("/")))
+    fname = os.path.join(Config.pdf_dir,year,month, " ".join(j['title'].split("/"))) + '.pdf'
   else:
-    fname = os.path.join(Config.pdf_dir,year,month, basename)
+    fname = os.path.join(Config.pdf_dir,year,month, basename) + '.pdf'
 
   # try retrieve the pdf
   numtot += 1
