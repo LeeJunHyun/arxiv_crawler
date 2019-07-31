@@ -54,7 +54,8 @@ for pid,j in db.items():
           shutil.copyfileobj(req, fp)
       time.sleep(0.05 + random.uniform(0,0.1))
     else:
-      print('%s exists, skipping' % (fname, ))
+      #print('%s exists, skipping' % (fname, ))
+      print('exists, skipping')
     numok+=1
     have.append(basename)
     with open("-".join(Config.search_list)+'/pdf_list.pkl', 'wb') as f:
