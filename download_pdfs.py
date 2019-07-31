@@ -34,7 +34,7 @@ for pid,j in db.items():
     if not os.path.exists(os.path.join(Config.pdf_dir,year)): os.makedirs(os.path.join(Config.pdf_dir,year))
     if not os.path.exists(os.path.join(Config.pdf_dir,year,month)): os.makedirs(os.path.join(Config.pdf_dir,year,month))
   else:
-	year = basename.split('.')[0][:2]
+	  year = basename.split('.')[0][:2]
     month = ""
 	if not os.path.exists(os.path.join(Config.pdf_dir,year)): os.makedirs(os.path.join(Config.pdf_dir,year))
     
