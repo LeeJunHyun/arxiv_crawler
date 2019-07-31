@@ -36,7 +36,7 @@ conda deactivate
 
 4. (Optional) Put papers on Mendeley library.
 
-You can write simple review at note and organize by using tags.
+You can write simple review at note and organize papers by using tags.
 (searching papers based on notes and tags)
 
 ![mendeley](./mendeley_library.png)
