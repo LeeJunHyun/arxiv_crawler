@@ -129,7 +129,7 @@ if __name__ == "__main__":
       print(response)
       break
 
-    if num_added == 0 and args.break_on_no_added == 1:
+    if num_added == 0 and args.break_on_no_added == 1 and i > len(db):
       print('No new papers were added. Assuming no new papers exist. Exiting.')
       break
 
