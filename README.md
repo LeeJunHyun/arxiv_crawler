@@ -8,7 +8,7 @@ This repo is the slightly modified version of https://github.com/karpathy/arxiv-
 
 
 2. Set your search keywords(list) at `utils.py`.
-(search for articles that contain the keywords in the abstract.)
+(crawler will search for articles that contain the keywords in the abstract.)
 
 ```python
 class Config(object):
@@ -33,5 +33,13 @@ python download_pdfs.py
 
 conda deactivate
 ```
+
+4. (Optional) Put papers on Mendeley library.
+
+You can write simple review at note and organize papers by using tags.
+(searching papers based on notes and tags)
+
+![mendeley](./mendeley_library.png)
+
 
 
