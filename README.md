@@ -34,4 +34,11 @@ python download_pdfs.py
 conda deactivate
 ```
 
+4. (Optional) Put papers on Mendeley library.
+
+You can write simple review at note and organize by using tags.
+
+![mendeley](./mendeley.png)
+
+
 
