@@ -8,7 +8,7 @@ This repo is the slightly modified version of https://github.com/karpathy/arxiv-
 
 
 2. Set your search keywords(list) at `utils.py`.
-(search for articles that contain the keywords in the abstract.)
+(crawler will search for articles that contain the keywords in the abstract.)
 
 ```python
 class Config(object):
