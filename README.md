@@ -1,4 +1,4 @@
-This codes is the slightly modified version of https://github.com/karpathy/arxiv-sanity-preserver.
+These codes is the slightly modified version of https://github.com/karpathy/arxiv-sanity-preserver.
 
 ## Crawling and Organizing arxiv papers
 
