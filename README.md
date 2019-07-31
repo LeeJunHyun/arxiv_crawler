@@ -2,7 +2,7 @@
 
 1. Build virtual env.
 
-`conda env create -f env.yml`
+`conda env create -f arxiv-env.yml`
 
 
 2. Set your search keywords(list) at `utils.py`.
