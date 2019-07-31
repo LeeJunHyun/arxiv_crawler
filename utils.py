@@ -9,8 +9,13 @@ import tempfile
 # -----------------------------------------------------------------------------
 class Config(object):
     search_list = ["graph convolution","graph neural network"]
+    # search query : [graph] AND [convolution] OR [graph] AND [neural] AND [network]
     save_pdf_by_title = True
+    # if save_pdf_by_title = False, the pdf file will be saved as 1805.07857v2.pdf
     save_pdf_by_months = True
+    # if save_pdf_by_months = False, the files will not be organized by months. (will be organized by years.)
+
+
     # main paper information repo file
     db_path = os.path.join("-".join(search_list),'db.p')
     # intermediate processing folders
