@@ -18,7 +18,7 @@ class Config(object):
     # if save_pdf_by_months = False, the files will not be organized by months. (will be organized by years.)
 ```
 
-3. Run `Crawling.sh`
+3. Run `source crawling.sh`
 ```sh
 conda activate arxiv-env
 
